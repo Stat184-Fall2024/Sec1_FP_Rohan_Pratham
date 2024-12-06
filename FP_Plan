@@ -1,0 +1,26 @@
+1. Load and Inspect Data
+- Load the dataset into R.
+- Check the structure of the data: Look at column names and data types. 
+
+2. Clean the Data (if required)
+
+3. Analysis
+- Summarize the data: Calculate mean, median, and standard deviation for batting_strike_rate, boundaries_percent, balls_faced, and batting_avg.
+- Check correlations: Use correlation coefficients to see how strongly each factor is related to batting_strike_rate.
+
+4. Create Visualizations
+- Scatter Plots, box plots, and histograms
+- Add appropriate titles, axis labels, and legends to all plots.
+
+5. Report Writing
+- Use the QMD format to write the report. Include these sections:
+Introduction
+Data Description
+Methodology
+Results
+Conclusion
+- Render to pdf
+
+7. Code Appendix
+Include all your R code in a separate section at the end of the QMD report.
+Make sure it is well-commented and follows a style guide.
