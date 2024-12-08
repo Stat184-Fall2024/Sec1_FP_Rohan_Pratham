@@ -2,7 +2,7 @@
 - Load the dataset into R.
 - Check the structure of the data: Look at column names and data types. 
 
-2. Clean the Data (if required)
+2. Clean the Data (check for missing values or outliers, filter out the data as required)
 
 3. Analysis
 - Summarize the data: Calculate mean, median, and standard deviation for batting_strike_rate, boundaries_percent, balls_faced, and batting_avg.
