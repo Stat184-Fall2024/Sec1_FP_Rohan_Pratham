@@ -1,18 +1,21 @@
 1. Load and Inspect Data
 - Load the dataset into R.
 - Check the structure of the data: Look at column names and data types. 
+- Repeat for the secondary dataset.
 
-2. Clean the Data (check for missing values or outliers, filter out the data as required)
+2. Clean the Data (check for missing values or outliers, filter out the data as required, rename columns as required)
 
-3. Analysis
+3. Merge the two datasets as per requirement.
+
+4. Analysis
 - Summarize the data: Calculate mean, median, and standard deviation for batting_strike_rate, boundaries_percent, balls_faced, and batting_avg.
 - Check correlations: Use correlation coefficients to see how strongly each factor is related to batting_strike_rate.
 
-4. Create Visualizations
+5. Create Visualizations
 - Scatter Plots, box plots, and histograms
 - Add appropriate titles, axis labels, and legends to all plots.
 
-5. Report Writing
+6. Report Writing
 - Use the QMD format to write the report. Include these sections:
 Introduction
 Data Description
