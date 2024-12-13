@@ -40,4 +40,5 @@ vignettes/*.pdf
 
 # dataset
 /Users/rohan1809/Desktop/STAT 184/Sec1_FP_Rohan_Pratham/data/IPL Player Stat.csv
-.DS_Store/
+.DS_Store
+
