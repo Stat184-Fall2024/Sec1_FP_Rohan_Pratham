@@ -47,12 +47,12 @@ Cleaned_Merged_Player_Data.csv (Final Dataset): Resulting dataset after merging,
     git clone https://github.com/Stat184-Fall2024/Sec1_FP_Rohan_HannahWu_Rohan.git
     ```
 2. Install R and RStudio. Ensure the following R packages are installed:
-   
-   dplyr: For data wrangling and cleaning
-   knitr: For creating polished tables
-   kableExtra: For enhanced table formatting
-   ggplot2: For data visualization
-   reshape2: For reshaping data (e.g., for heatmaps)
+
+- dplyr: For data wrangling and cleaning
+- knitr: For creating polished tables
+- kableExtra: For enhanced table formatting
+- ggplot2: For data visualization
+- reshape2: For reshaping data (e.g., for heatmaps)
    
 3. Run Code Files
 
@@ -63,4 +63,18 @@ Cleaned_Merged_Player_Data.csv (Final Dataset): Resulting dataset after merging,
 
 - Tables and visualizations will be generated and displayed in your R environment.
 - Refer to the data folder for input datasets and the final cleaned dataset.
+
+## Key Insights
+
+1. Factors Influencing Batting Strike Rate:
+
+- Boundaries Percentage has the strongest positive correlation with Batting Strike Rate.
+- Batting Average also contributes moderately, highlighting consistency's role in scoring efficiency.
+
+![correlation_heatmap](https://github.com/user-attachments/assets/31a22c7a-1c01-411a-b107-5e227284fb7c)
+
+2. Impact of Batting Style on Performance:
+
+- Right-handed batsmen outperform left-handed batsmen in total boundaries and strike rate.
+- Batting average remains consistent across both batting styles, showing minimal influence.
 
