@@ -35,7 +35,9 @@ data_visualizations.r
 ### Data
 
 IPL Player Stat.csv (Primary Dataset): Contains detailed batting and bowling statistics for IPL players (16 columns, 604 rows).
+
 2024_players_details.csv (Secondary Dataset): Includes player details such as batting style, bowling style, and roles (13 columns, 262 rows).
+
 Cleaned_Merged_Player_Data.csv (Final Dataset): Resulting dataset after merging, cleaning, and filtering the primary and secondary datasets. Contains key variables used in the analysis.
 
 ## How to Use
@@ -45,4 +47,20 @@ Cleaned_Merged_Player_Data.csv (Final Dataset): Resulting dataset after merging,
     git clone https://github.com/Stat184-Fall2024/Sec1_FP_Rohan_HannahWu_Rohan.git
     ```
 2. Install R and RStudio. Ensure the following R packages are installed:
-   - 
+   
+   dplyr: For data wrangling and cleaning
+   knitr: For creating polished tables
+   kableExtra: For enhanced table formatting
+   ggplot2: For data visualization
+   reshape2: For reshaping data (e.g., for heatmaps)
+   
+3. Run Code Files
+
+- Open the R scripts (data_cleaning.r, data_analysis_tables.r, data_visualizations.r) in RStudio.
+- Execute the scripts in order to clean the data, generate tables, and create visualizations.
+  
+4. Explore Outputs
+
+- Tables and visualizations will be generated and displayed in your R environment.
+- Refer to the data folder for input datasets and the final cleaned dataset.
+
