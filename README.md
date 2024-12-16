@@ -77,4 +77,21 @@ Cleaned_Merged_Player_Data.csv (Final Dataset): Resulting dataset after merging,
 
 - Right-handed batsmen outperform left-handed batsmen in total boundaries and strike rate.
 - Batting average remains consistent across both batting styles, showing minimal influence.
+  
+![boundaries_by_batting_style](https://github.com/user-attachments/assets/c7165f3e-26f2-4ac6-b1ed-094a129e9c71)
+
+## Acknowledgements 
+
+- The primary dataset was sourced from Kaggle (IPL Player Stats).
+- The secondary dataset was sourced from GitHub (Player Details).
+- This project was completed as part of the STAT 184 Final Project by:
+  - Rohan Dalal
+  - Pratham Patel
+
+## Contact
+
+Rohan Dalal - rxd5491@psu.edu
+
+Pratham Patel - pap5520@psu.edu
+
 
