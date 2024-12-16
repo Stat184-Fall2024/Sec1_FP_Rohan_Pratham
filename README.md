@@ -34,17 +34,24 @@ data_visualizations.r
 
 ### Data
 
-IPL Player Stat.csv (Primary Dataset): Contains detailed batting and bowling statistics for IPL players (16 columns, 604 rows).
+IPL Player Stat.csv (Primary Dataset)
 
-2024_players_details.csv (Secondary Dataset): Includes player details such as batting style, bowling style, and roles (13 columns, 262 rows).
+- Contains detailed batting and bowling statistics for IPL players (16 columns, 604 rows).
 
-Cleaned_Merged_Player_Data.csv (Final Dataset): Resulting dataset after merging, cleaning, and filtering the primary and secondary datasets. Contains key variables used in the analysis.
+2024_players_details.csv (Secondary Dataset)
+
+- Includes player details such as batting style, bowling style, and roles (13 columns, 262 rows).
+
+Cleaned_Merged_Player_Data.csv (Final Dataset)
+
+- Resulting dataset after merging, cleaning, and filtering the primary and secondary datasets.
+- Contains key variables used in the analysis.
 
 ## How to Use
 
 1. Clone the repository using the following CMD prompt:-
     ```r
-    git clone https://github.com/Stat184-Fall2024/Sec1_FP_Rohan_HannahWu_Rohan.git
+    git clone https://github.com/Stat184-Fall2024/Sec1_FP_Rohan_Pratham.git
     ```
 2. Install R and RStudio. Ensure the following R packages are installed:
 
@@ -70,15 +77,15 @@ Cleaned_Merged_Player_Data.csv (Final Dataset): Resulting dataset after merging,
 
 - Boundaries Percentage has the strongest positive correlation with Batting Strike Rate.
 - Batting Average also contributes moderately, highlighting consistency's role in scoring efficiency.
+![correlation_heatmap](https://github.com/user-attachments/assets/f72e312c-3412-433a-a757-7a5b76d10181)
 
-![correlation_heatmap](https://github.com/user-attachments/assets/31a22c7a-1c01-411a-b107-5e227284fb7c)
 
 2. Impact of Batting Style on Performance:
 
-- Right-handed batsmen outperform left-handed batsmen in total boundaries and strike rate.
+- Right-handed batsmen outperform left-handed batsmen in total boundaries.
+![boundaries_by_style_2](https://github.com/user-attachments/assets/8c22400e-cb60-4d92-b8e3-51228c796003)
+
 - Batting average remains consistent across both batting styles, showing minimal influence.
-  
-![boundaries_by_batting_style](https://github.com/user-attachments/assets/c7165f3e-26f2-4ac6-b1ed-094a129e9c71)
 
 ## Acknowledgements 
 
