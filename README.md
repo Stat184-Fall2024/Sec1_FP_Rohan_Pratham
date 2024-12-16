@@ -80,10 +80,12 @@ Cleaned_Merged_Player_Data.csv (Final Dataset)
 ![correlation_heatmap](https://github.com/user-attachments/assets/f72e312c-3412-433a-a757-7a5b76d10181)
 
 
+
 2. Impact of Batting Style on Performance:
 
 - Right-handed batsmen outperform left-handed batsmen in total boundaries.
 ![boundaries_by_style_2](https://github.com/user-attachments/assets/8c22400e-cb60-4d92-b8e3-51228c796003)
+
 
 - Batting average remains consistent across both batting styles, showing minimal influence.
 
